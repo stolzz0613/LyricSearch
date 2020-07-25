@@ -35,7 +35,8 @@ function App() {
         })
     }
     consultarApiLetra()
-  }, [busquedaLetra]);
+
+  }, [busquedaLetra ]);
 
   return (
     <Fragment>
@@ -54,7 +55,7 @@ function App() {
               info={info}
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-4">
             <Cancion
               letra={letra}
             />
