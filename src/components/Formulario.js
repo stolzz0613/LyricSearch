@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Formulario = ({ setBusquedaLetra }) => {
+const Formulario = ({ setBusquedaLetra, errorText, setErrorText, error, setError }) => {
 
     const [busqueda, setBusqueda] = useState({
         artista: '',
@@ -16,12 +16,11 @@ const Formulario = ({ setBusquedaLetra }) => {
         })
     };
 
-    const [error, setError] = useState(false);
-
     const buscarInformacion = (e) => {
         e.preventDefault();
 
         if (artista.trim() === "" || cancion.trim() === "") {
+            setErrorText("Todos los campos son obligatorios")
             setError(true);
             return;
         }
@@ -35,7 +34,7 @@ const Formulario = ({ setBusquedaLetra }) => {
             {error
                 ? <p
                     className="alert alert-danger text-center p-2">
-                    Todos los campos son olbigatorios</p>
+                    {errorText}</p>
                 : null
             }
             <div className="container">
