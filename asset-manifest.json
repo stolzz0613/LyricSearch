@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LyricSearch/static/css/main.396e809d.chunk.css",
+    "main.css": "/LyricSearch/static/css/main.edefd531.chunk.css",
     "main.js": "/LyricSearch/static/js/main.61f9539c.chunk.js",
     "main.js.map": "/LyricSearch/static/js/main.61f9539c.chunk.js.map",
     "runtime-main.js": "/LyricSearch/static/js/runtime-main.5e432f9b.js",
@@ -8,15 +8,15 @@
     "static/js/2.fd4d086d.chunk.js": "/LyricSearch/static/js/2.fd4d086d.chunk.js",
     "static/js/2.fd4d086d.chunk.js.map": "/LyricSearch/static/js/2.fd4d086d.chunk.js.map",
     "index.html": "/LyricSearch/index.html",
-    "precache-manifest.027e9afb4654eb1006892e7770599036.js": "/LyricSearch/precache-manifest.027e9afb4654eb1006892e7770599036.js",
+    "precache-manifest.e7da88c464c1440043e79a6bdd638c30.js": "/LyricSearch/precache-manifest.e7da88c464c1440043e79a6bdd638c30.js",
     "service-worker.js": "/LyricSearch/service-worker.js",
-    "static/css/main.396e809d.chunk.css.map": "/LyricSearch/static/css/main.396e809d.chunk.css.map",
+    "static/css/main.edefd531.chunk.css.map": "/LyricSearch/static/css/main.edefd531.chunk.css.map",
     "static/js/2.fd4d086d.chunk.js.LICENSE.txt": "/LyricSearch/static/js/2.fd4d086d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e432f9b.js",
     "static/js/2.fd4d086d.chunk.js",
-    "static/css/main.396e809d.chunk.css",
+    "static/css/main.edefd531.chunk.css",
     "static/js/main.61f9539c.chunk.js"
   ]
 }
