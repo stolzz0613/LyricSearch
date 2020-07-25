@@ -48,7 +48,8 @@ form.card{
 }
 
 .letra {
-  white-space: pre-wrap;
+  white-space: pre-line;
+  line-height:1rem;
 }
 
 .card img {
